@@ -1,0 +1,63 @@
+body{
+    background: hsl(47, 88%, 63%);
+    padding: 5%;
+}
+
+.conteiner1{
+    background: hsl(0, 0%, 100%);
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px;
+}
+.conteiner1:hover{
+    box-shadow: 12px 12px 1px;
+}
+.imagenlogo{
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 5%;
+}
+
+button{
+    background:hsl(47, 88%, 63%);
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    font-weight: 800;
+}
+
+p{
+    color: hsl(0, 0%, 50%);
+}
+.textoPublicacion{
+    color: black;
+}
+h2{
+    font-size: 20px;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+h3{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fotoPerfil{
+    display: flex;
+    height: 33px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    .conteiner1 {
+        width: 90%;
+    }
+}
